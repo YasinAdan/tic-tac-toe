@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+#gameOver {
+    display: none;
+    font-size: 50px;
+    text-align: center;
+}
+#gameContainer {
+    width: 50em;
+    height: 50em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.square {
+    border: 1px solid black;
+    width: 30%;
+    resize: none;
+    height: 35%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square p {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.notClicked:hover {
+    background-color: grey;
+    cursor: pointer;
+}
